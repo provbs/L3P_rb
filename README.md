@@ -22,6 +22,9 @@ Overall workflow of the proposed method
 <br>then the masks were used for deep learning training for tri-sectional 3D mask generation.
 
 <br>
-<br> 1) Folder RB : rule based mask generation code
-<br> 2) Folder DL : deep learing based mask generation code (simple implementation of nnUNet 3D)
+<h3>
+  Folder descriptions:
+</h3>
+<br> 1) RB : rule based mask generation code
+<br> 2) DL : deep learing based mask generation code (simple implementation of nnUNet 3D)
 <br> Additional utility codes (e.g., for computing ratios between regions) will be uploaded when necessary
