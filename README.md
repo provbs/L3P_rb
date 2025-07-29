@@ -1,12 +1,27 @@
-# L3P_rb
-Tri-Sectional Lung Mask Generator (Rule-Based)
-
+# Tri-Sectional Lung Mask Generator (Rule-Based + Deep learning)
 
 <p align="center"><img src='./MI2RL_logo.png' width="440" height="150"></p>
 
 <br>
 * [MI2RL] (https://www.mi2rl.co/) @Asan Medical Center, South Korea
 <br>
-* <b> Tri-Sectional Lung Mask Generator (Rule-Based) </b>
+* Code Managing : Youngjae Kim
 <br>
-* Authors: 
+
+<h1>
+Overall workflow of the proposed method
+</h1>
+
+<img width="1488" height="898" alt="image" src="https://github.com/user-attachments/assets/a8322f9f-ee23-454f-ad09-de97a69332d7" />
+
+<br>
+* Schematic representation of the pipeline using the rule based generated tri-sectional masks. 
+<br>* The pipeline consists of (a) rule-based mask generation, and (b) deep-learning model training.
+<br>
+<br> * 3D tri-sectinal masks were generated with the rule-based mask generation method, 
+<br>then the masks were used for deep learning training for tri-sectional 3D mask generation.
+
+<br>
+<br> 1) Folder RB : rule based mask generation code
+<br> 2) Folder DL : deep learing based mask generation code (simple implementation of nnUNet 3D)
+<br> Additional utility codes (e.g., for computing ratios between regions) will be uploaded when necessary
