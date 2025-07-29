@@ -33,7 +33,7 @@ This project combines rule-based and deep learning approaches to generate **tri-
 ## 📁 Folder Structure
 
 1. **`RB/`** – Rule-based mask generation code  
-2. **`DL/`** – Deep learning-based mask generation (simple implementation based on [nnUNet](https://github.com/MIC-DKFZ/nnUNet))
+2. **`DL/`** – Deep learning-based mask generation (simple implementation of [nnUNet](https://github.com/MIC-DKFZ/nnUNet))
 
 > 🔄 The latest version of the nnUNet code used here is available at:  
 > https://github.com/MIC-DKFZ/nnUNet
