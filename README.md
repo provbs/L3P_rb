@@ -1,4 +1,4 @@
-# 🫁 Tri-Sectional Lung Mask Generator (Rule-Based + Deep Learning)
+# 📜 Tri-Sectional Lung Mask Generator (Rule-Based + Deep Learning)
 
 <p align="center">
   <img src="./MI2RL_logo.png" width="440" height="150">
