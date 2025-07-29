@@ -42,3 +42,17 @@ This project combines rule-based and deep learning approaches to generate **tri-
 
 ---
 
+---
+
+## 📄 Related Publications
+
+If this code is used in a publication, please consider citing the appropriate work.  
+Below is a list of related publications that have used or contributed to this repository:
+
+- *(To be updated)*
+
+<!-- Example format:
+- **Kim YJ**, et al. "Title of the paper." *Journal Name*, Year. [DOI or arXiv link]
+-->
+
+---
