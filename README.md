@@ -42,8 +42,6 @@ This project combines rule-based and deep learning approaches to generate **tri-
 
 ---
 
----
-
 ## 📄 Related Publications
 
 If this code is used in a publication, please consider citing the appropriate work.  
