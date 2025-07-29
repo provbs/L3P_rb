@@ -18,13 +18,13 @@ Overall workflow of the proposed method
 * Schematic representation of the pipeline using the rule based generated tri-sectional masks. 
 <br>* The pipeline consists of (a) rule-based mask generation, and (b) deep-learning model training.
 <br>
-<br> * 3D tri-sectinal masks were generated with the rule-based mask generation method, 
-<br>then the masks were used for deep learning training for tri-sectional 3D mask generation.
+<br> * 3D tri-sectinal masks were generated with the rule-based mask generation method first. 
+<br> * Then the generated masks were used for deep learning training for tri-sectional 3D mask generation.
 
 <br>
 <h3>
   Folder descriptions:
 </h3>
-<br> 1) RB : rule based mask generation code
+1) RB : rule based mask generation code
 <br> 2) DL : deep learing based mask generation code (simple implementation of nnUNet 3D)
-<br> Additional utility codes (e.g., for computing ratios between regions) will be uploaded when necessary
+<br> * Additional utility codes (e.g., for computing ratios between regions) will be uploaded when necessary
