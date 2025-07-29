@@ -1,31 +1,44 @@
-# Tri-Sectional Lung Mask Generator (Rule-Based + Deep learning)
+# 🫁 Tri-Sectional Lung Mask Generator (Rule-Based + Deep Learning)
 
-<p align="center"><img src='./MI2RL_logo.png' width="440" height="150"></p>
+<p align="center">
+  <img src="./MI2RL_logo.png" width="440" height="150">
+</p>
 
-<br>
-* Code Management : Youngjae Kim (provbs36@gmail.com)
-<br>
-<br>
-* [MI2RL] (https://www.mi2rl.co/) @Asan Medical Center, South Korea
+---
 
-<h1>
-Overall workflow of the proposed method
-</h1>
+- **Code Management**: Youngjae Kim (provbs36@gmail.com)  
+- **Affiliation**: [MI2RL](https://www.mi2rl.co/) @ Asan Medical Center, South Korea  
 
-<img width="1488" height="898" alt="image" src="https://github.com/user-attachments/assets/a8322f9f-ee23-454f-ad09-de97a69332d7" />
+---
 
-<br>
-* Schematic representation of the pipeline using the rule based generated tri-sectional masks. 
-<br>* The pipeline consists of (a) rule-based mask generation, and (b) deep-learning model training.
-<br>
-<br> * 3D tri-sectinal masks were generated with the rule-based mask generation method first. 
-<br> * Then the generated masks were used for deep learning training for tri-sectional 3D mask generation.
+## 📌 Overview
 
-<br>
-<h3>
-  Folder descriptions:
-</h3>
-1) <b>RB</b> : rule based mask generation code
-<br> 2) <b>DL</b> : deep learing based mask generation code (simple implementation of original 3D nnUNet)
-<br> The the latest version of the code used for deep learning here is available at: https://github.com/MIC-DKFZ/nnUNet
-<br> * Additional utility codes (e.g., for computing ratios between regions) will be uploaded when necessary
+This project combines rule-based and deep learning approaches to generate **tri-sectional lung masks** from 3D Chest CT images.
+
+### 🧠 Workflow Summary
+
+<p align="center">
+  <img width="100%" alt="workflow" src="https://github.com/user-attachments/assets/a8322f9f-ee23-454f-ad09-de97a69332d7" />
+</p>
+
+- The pipeline consists of:
+  - **(a)** Rule-based mask generation
+  - **(b)** Deep learning-based mask training
+
+- In **Step 1**, 3D tri-sectional masks are generated using a rule-based method.  
+- In **Step 2**, these masks are used to train a deep learning model for automated tri-sectional 3D mask generation.
+
+---
+
+## 📁 Folder Structure
+
+1. **`RB/`** – Rule-based mask generation code  
+2. **`DL/`** – Deep learning-based mask generation (simple implementation based on [nnUNet](https://github.com/MIC-DKFZ/nnUNet))
+
+> 🔄 The latest version of the nnUNet code used here is available at:  
+> https://github.com/MIC-DKFZ/nnUNet
+
+- Additional utility scripts (e.g., for computing regional ratios) will be uploaded as needed.
+
+---
+
