@@ -5,7 +5,7 @@
 <br>
 * [MI2RL] (https://www.mi2rl.co/) @Asan Medical Center, South Korea
 <br>
-* Code Managing : Youngjae Kim
+* Code Management : Youngjae Kim (provbs36@gmail.com)
 <br>
 
 <h1>
