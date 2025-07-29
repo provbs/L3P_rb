@@ -3,10 +3,10 @@
 <p align="center"><img src='./MI2RL_logo.png' width="440" height="150"></p>
 
 <br>
-* [MI2RL] (https://www.mi2rl.co/) @Asan Medical Center, South Korea
-<br>
 * Code Management : Youngjae Kim (provbs36@gmail.com)
 <br>
+<br>
+* [MI2RL] (https://www.mi2rl.co/) @Asan Medical Center, South Korea
 
 <h1>
 Overall workflow of the proposed method
@@ -25,6 +25,6 @@ Overall workflow of the proposed method
 <h3>
   Folder descriptions:
 </h3>
-1) RB : rule based mask generation code
-<br> 2) DL : deep learing based mask generation code (simple implementation of nnUNet 3D)
+1) <b>RB</b> : rule based mask generation code
+<br> 2) <b>DL</b> : deep learing based mask generation code (simple implementation of nnUNet 3D)
 <br> * Additional utility codes (e.g., for computing ratios between regions) will be uploaded when necessary
