@@ -1,4 +1,4 @@
-# 📜 Tri-Sectional Lung Mask Generator (Rule-Based + Deep Learning)
+# 📜 Tri-Sectional Lung Mask Generator (Rule-Based)
 
 <p align="center">
   <img src="./MI2RL_logo.png" width="440" height="150">
@@ -13,7 +13,7 @@
 
 ## 📌 Overview
 
-This project combines rule-based and deep learning approaches to generate **tri-sectional lung masks** from 3D Chest CT images.
+This project presents a **rule-based method** for generating **tri-sectional lung masks** from 3D Chest CT images.
 
 ### 🧠 Workflow Summary
 
@@ -21,24 +21,23 @@ This project combines rule-based and deep learning approaches to generate **tri-
   <img width="100%" alt="workflow" src="https://github.com/user-attachments/assets/a8322f9f-ee23-454f-ad09-de97a69332d7" />
 </p>
 
-- The pipeline consists of:
-  - **(a)** Rule-based mask generation
-  - **(b)** Deep learning-based mask training
+- The pipeline currently consists of:
+  - **(a)** Rule-based mask generation ✔️
 
-- In **Step 1**, 3D tri-sectional masks are generated using a rule-based method.  
-- In **Step 2**, these masks are used to train a deep learning model for automated tri-sectional 3D mask generation.
+- In **Step 1**, 3D tri-sectional masks are generated using heuristic anatomical rules.  
+- These masks can serve as **training labels or priors** for more advanced models.
+
+> 🔭 **Future Development**:  
+> Step **(b)** involves extending this work toward a deep learning-based mask generation model,  
+> trained using the rule-based masks as supervision. This would enable automated and scalable tri-sectional labeling from raw CT volumes.
 
 ---
 
 ## 📁 Folder Structure
 
-1. **`RB/`** – Rule-based mask generation code  
-2. **`DL/`** – Deep learning-based mask generation (simple implementation of [nnUNet](https://github.com/MIC-DKFZ/nnUNet))
+- **`RB/`** – Rule-based mask generation code
 
-> 🔄 The latest version of the nnUNet code used here is available at:  
-> https://github.com/MIC-DKFZ/nnUNet
-
-- Additional utility scripts (e.g., for computing regional ratios) will be uploaded as needed.
+> 🛠 Additional utility scripts (e.g., for computing regional ratios) will be uploaded as needed.
 
 ---
 
@@ -52,5 +51,3 @@ Below is a list of related publications that have used or contributed to this re
 <!-- Example format:
 - **Kim YJ**, et al. "Title of the paper." *Journal Name*, Year. [DOI or arXiv link]
 -->
-
----
