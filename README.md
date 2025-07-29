@@ -26,5 +26,5 @@ Overall workflow of the proposed method
   Folder descriptions:
 </h3>
 1) <b>RB</b> : rule based mask generation code
-<br> 2) <b>DL</b> : deep learing based mask generation code (simple implementation of nnUNet 3D)
+<br> 2) <b>DL</b> : deep learing based mask generation code (simple implementation of 3D nnUNet)
 <br> * Additional utility codes (e.g., for computing ratios between regions) will be uploaded when necessary
